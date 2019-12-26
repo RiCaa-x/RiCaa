@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Naruto</title>
+    <!--    css初始化-->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!--    图标引入-->
+    <link rel="shortcut icon" href="../picture/鸣人.jpg">
+    <!--    css代码-->
+    <link rel="stylesheet" href="笔记.css">
+</head>
+<body>
+
+    <div class="nav">
+        <div class="nav-h">
+            <h1><a href="笔记.html">RiCaa</a></h1>
+            <p><a href="https://list.youku.com/show/id_zcc001f06962411de83b1" target="_blank">小鬼就是会向往英雄,<br>
+                我才不是废物!!!</a></p>
+        </div>  <!--伪logo栏-->
+        <div class="nav-f" id="nav-f">   <!--导航栏---------nav-f里面不能在使用除h3中的span!!!!!!;-->
+
+            <div class="nav-fMain" id="nav-fMain">
+                <div class="html">    <!--这个div没用只是包裹一下-->
+                    <h3><span id="nav-html">html</span></h3>
+                    <div class="htmlAll" id="htmlAll" style="display: block">
+                        <div class="htmlMain" id="htmlMain">
+
+
+                            <h6><a href="#">哈哈哈哈</a></h6>  <!-- 因为设置了margin最后一个显示不出来-->
+                        </div>
+                    </div>
+                </div>   <!-- html栏 -->
+
+                <div class="css">    <!--这个div没用只是包裹一下-->
+                    <h3><span id="nav-css">css</span></h3>
+                    <div class="cssAll" id="cssAll" style="display: block">
+                        <div class="cssMain" id="cssMain">
+                            <h6><a href="#css1">外链式</a></h6>
+                            <h6><a href="#css2">类选择器</a></h6>
+                            <h6><a href="#css3">ID选择器</a></h6>
+                            <h6><a href="#css4">通配符选择器</a></h6>
+                            <h6><a href="#css5">字体样式属性</a></h6>
+                            <h6><a href="#css6">综合设置字体样式</a></h6>
+                            <h6><a href="#css7">字体外观属性</a></h6>
+                            <h6><a href="#css8">指定某个选择器</a></h6>
+                            <h6><a href="#css9">块级元素及特点</a></h6>
+                            <h6><a href="#css10">行内元素及特点</a></h6>
+                            <h6><a href="#css11">行内块元素及特点</a></h6>
+                            <h6><a href="#css12">标签显示模式转换</a></h6>
+                            <h6><a href="#css13"><b>标</b>签小知识</a></h6>
+                            <h6><a href="#css14">css三大特性</a></h6>
+                            <h6><a href="#css15">css背景</a></h6>
+                            <h6><a href="#css16"><b>边</b>框及合并边框</a></h6>
+                            <h6><a href="#css17">内边距</a></h6>
+                            <h6><a href="#css18">外边距</a></h6>
+                            <h6><a href="#css19"><b>居中</b></a></h6>
+                            <h6><a href="#css20">标签初始化</a></h6>
+                            <h6><a href="#css21"><b>垂</b>直外边距的合并</a></h6>
+                            <h6><a href="#css22">圆角边框</a></h6>
+                            <h6><a href="#css23">盒子阴影</a></h6>
+                            <h6><a href="#css24"><b>浮动</b></a></h6>
+                            <h6><a href="#css25">版心和布局</a></h6>
+                            <h6><a href="#css26"><b>清</b>除浮动</a></h6>
+                            <h6><a href="#css27"><b>定位</b></a></h6>
+                            <h6><a href="#css28">叠放次序</a></h6>
+                            <h6><a href="#css29">元素的显示与隐藏</a></h6>
+                            <h6><a href="#css30"><b>css</b>用户界面</a></h6>
+                            <h6><a href="#css31">css精灵图技术</a></h6>
+                            <h6><a href="#css32">滑动门技术</a></h6>
+                            <h6><a href="#css33">网址栏图标引入</a></h6>
+                            <h6><a href="#css34">网站优化三大标签</a></h6>
+                            <h6><a href="#css35">结构伪类选择器</a></h6>
+                            <h6><a href="#css36">属性选择器</a></h6>
+                            <h6><a href="#css37">html5新增input属性</a></h6>
+                            <h6><a href="#css38">伪元素选择器</a></h6>
+                            <h6><a href="#css39"><b>before,after</b>伪元素</a></h6>
+                            <h6><a href="#css40"><b>内减型</b></a></h6>
+                            <h6><a href="#css41">音频</a></h6>
+                            <h6><a href="#css42">视频</a></h6>
+                            <h6><a href="#css43"><b>css3</b>过渡动画</a></h6>
+                            <h6><a href="#">哈哈哈哈</a></h6>  <!-- 因为设置了margin最后一个显示不出来-->
+                        </div>
+                        <div class="cssScroll" id="cssScroll" style="visibility: hidden">
+                            <div class="cssBar" id="cssBar"></div>
+                        </div>
+                    </div>
+                </div>   <!-- css栏 -->
+
+                <div class="javaScript">     <!--这个div没用只是包裹一下-->
+                    <h3><span id="nav-javaScript">javaScript</span></h3>
+                    <div class="javaScriptAll" id="javaScriptAll" style="display: block">
+                        <div class="javaScriptMain" id="javaScriptMain">
+
+                            <h6><a href="#">哈哈哈哈</a></h6>  <!-- 因为设置了margin最后一个显示不出来-->
+                        </div>
+                        <div class="javaScriptScroll" id="javaScriptScroll" style="visibility:hidden;">
+                            <div class="javaScriptBar" id="javaScriptBar"></div>
+                        </div>
+                    </div>
+                </div>    <!-- javaScript栏 -->
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="html" id="html">
+
+        </div>
+
+        <div class="css" id="css">
+            <div id="css1">
+                <h3>外链式:</h3>
+                <p>
+                    新建一个.css文件,在此文件中写所有样式,然后将这个css文件与html文件连接起来:<br>
+                    &lt;head&gt;<br>
+                    &nbsp; &nbsp; &lt;link&nbsp;rel="stylesheet" &nbsp; href="css文件路径"/ &gt;(单标签)<br>
+                    &lt;/head&gt;
+                </p>
+            </div>
+            <div id="css2" >
+                <h3>类选择器:<span>上面点(.)声明,下面class调用</span></h3>
+                <p>
+                    .选择器名{属性:值} &nbsp; &nbsp; &nbsp; &nbsp; (选择器名不能以数字开头)<br>
+                    &nbsp; &nbsp;<b>注</b>:&nbsp; 1.一个标签只能有一个class,当有多个类选择器名时,如下:<br>
+                    &nbsp; &nbsp;&nbsp; &nbsp; class="选择器1&nbsp;选择器2&nbsp;...."&nbsp; &nbsp; (空格隔开)<br>
+                    &nbsp; &nbsp;&nbsp; &nbsp;2.样式的显示效果跟标签中类名的先后顺序无关,受css样式的书写顺序 影响,
+                    后入为主.
+                </p>
+            </div>
+            <div id="css3">
+                <h3>Id选择器: <span>上面#声明,下面id调用</span></h3>
+                <p>
+                    &nbsp; &nbsp; #选择器名{属性:值},<br>
+                    <b>注</b>:id选择器只能使用一次
+                </p>
+            </div>
+            <div id="css4">
+                <h3>通配符选择器:<span>选定所有标签,但是会拖慢运行速度</span></h3>
+                <p>
+                    *{属性:值}
+                </p>
+            </div>
+            <div id="css5">
+                <h3>字体样式属性:</h3>
+                <p>
+                    1. 字体大小:&nbsp;&nbsp;font-size:数字px;&nbsp;&nbsp;(记得单位)<br>
+                    2. 选择字体:&nbsp;&nbsp;font-family:英文,"中文";&nbsp;&nbsp;(英文不加引号,中文字体加引号,
+                    用逗号隔开(,) 且英文放在前面)<br>
+                    3. 字体加粗:&nbsp;&nbsp; font-weight:值;&nbsp;&nbsp;(值可以是bold,normal或者数字,bold相当于700,
+                    且没有单位.默认值是normal,相当于400.)<br>
+                    4.字体风格:&nbsp;&nbsp; font-style: 值;&nbsp;&nbsp; (值可以是italic使字体倾斜,normal让字体摆正)
+                </p>
+            </div>
+            <div id="css6">
+                <h3>综合设置字体样式:<span>连写顺序</span></h3>
+                <p>
+                    &nbsp;&nbsp;选择器{font:&nbsp;font-style&nbsp;font-weight&nbsp;font-size/line-height&nbsp;font-family;}<br>
+                    <b>注</b>:必须按照上面顺序书写,各属性以空格隔开,不需要设置的属性省略(取默认值),
+                    但必须保留font-size和font-family属性.
+                </p>
+            </div>
+            <div id="css7">
+                <h3>外观属性:</h3>
+                <p>
+                    1. color: 颜色;&nbsp;&nbsp;颜色可以为red,green,blue等.也可以用#十六进制数表示
+                    (如:#FF0000红,#00FF00绿,#0000FF蓝)<br>
+                    2. 行间距:&nbsp;&nbsp; line-height:数字px;&nbsp;&nbsp; 有单位: px(像素),em(相对值,1em就是一个字的大小),
+                    %(百分比). 一般都用px,且行距比字号大7,8个像素就可以了<br>
+                    3. 水平对齐方式:&nbsp;&nbsp; text-align: left(默认)/right(右)/center(中);<br>
+                    4. 首行缩进:&nbsp;&nbsp; text-indent:2em;&nbsp;&nbsp; (还可以是%,但一般用em,2em表示首行缩进2个字大小)<br>
+                    5. 文本装饰:&nbsp;&nbsp; text-decoration:参数:&nbsp;&nbsp;参数为:none(无装饰)/blink(闪烁)/underline(下划线)/
+                    line-through(贯穿线)/overline(上划线)
+                </p>
+            </div>
+            <div id="css8">
+                <h3>指定某个选择器:</h3>
+                <p>
+                    1.后代选择器:&nbsp;&nbsp; 父标签&nbsp;字标签{属性:值;...}&nbsp;&nbsp; (选择父标签下的所有这个字标签)<br>
+                    2.子代选择器:&nbsp;&nbsp; 如: ul&nbsp;li>a{属性:值;...}&nbsp;&nbsp;(只选中直接与li相邻的a,
+                    如果li与a之间还有标签,则这个a不被选中<br>
+                    3. 交集选择器:&nbsp;&nbsp; 标签.类选择器名{属性:值;...}&nbsp;&nbsp;(只选择指定标签下的含有class="类选择器名"
+                    的内容.<br>
+                    4. 并集选择器:&nbsp;&nbsp; 选择器1,选择器2,选择器3,...{属性:值;...}&nbsp;&nbsp;(适用于集体声明相同的样式)<br>
+                    5. 伪类选择器:&nbsp;&nbsp; 标签:link(未访问的)&nbsp;&nbsp; 标签:visited(已访问的)&nbsp;&nbsp; 标签:hover(鼠标
+                    移动到上面出现的变化)&nbsp;&nbsp; 标签:active(选定的)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;主要用作链接伪类选择器,即<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a:link{属性:值...}&nbsp;&nbsp;&nbsp; a:visited{属性:值...}
+                    &nbsp;&nbsp;&nbsp;a:hover{属性:值...}&nbsp;&nbsp;&nbsp; a:active{属性:值...}<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; 且四个选择器的顺序不可改变.&nbsp; 记法:love hate(l&nbsp;v&nbsp;h&nbsp;a)
+                </p>
+            </div>
+            <div id="css9">
+                <h3>块级元素及特点:</h3>
+                <p>
+                    每个块级元素通常会独占一行或多行,可以对其设置宽,高,对齐等属性.常用于网页布局.(默认宽度是100%,
+                    可以容纳内联元素)<br>
+                    &nbsp;&nbsp;如: &lt;h1~h6 &gt; , &lt; p &gt;, &lt; div &gt;, &lt; ul &gt;, &lt; ol &gt;, &lt; li &gt;,
+                    其中&lt; div &gt;最典型.
+                </p>
+            </div>
+            <div id="css10">
+                <h3>行内元素及特点:</h3>
+                <p>
+                    行内元素(内联元素)不占独立区域,仅占自身大小的空间,一般不可以设置宽,高,对齐等属性,常用于控制
+                    页面文本的样式<br>
+                    &nbsp;&nbsp;如: &lt; a &gt; , &lt; strong &gt;, &lt; b &gt;, &lt; em &gt;, &lt; i &gt;, &lt; del &gt;,
+                    &lt; s &gt;, &lt; ins &gt;, &lt; u &gt;, &lt; span &gt;, 其中&lt; span &gt;最典型.<br>
+                    特点:<br>
+                    ①.相邻元素在一行上<br>
+                    ②.高宽无效,但水平方向的padding和margin可以设置;垂直方向无效.默认宽度就是它本身内容的宽度.<br>
+                    ③.行内元素只能容纳文本或者其他行内元素,不能容纳块级元素.(a除外,a可以放块级元素)<br>
+                </p>
+            </div>
+            <div id="css11">
+                <h3>行内块元素及特点:</h3>
+                <p>
+                    在行内元素中有几个特殊的标签: &lt;img/ &gt; , &lt; input/ &gt;, &lt; td &gt;可以对他们设置宽高和对齐等
+                    属性,称为行内块元素.<br>
+                    特点:&nbsp; 默认宽度就是内容本身宽度,但是可以控制.
+                </p>
+            </div>
+            <div id="css12">
+                <h3>标签显示模式转换:<span>display</span></h3>
+                <p>
+                    1. 块转行内:&nbsp;&nbsp; display: inline;(转换后具有行内元素特点)<br>
+                    2. 行内转块:&nbsp;&nbsp; display: block;(转换后具有块级元素特点)<br>
+                    3. 块,行内元素转行内块:&nbsp;&nbsp; display: inline-block;(转换后具有行内块元素特点)<br>
+                </p>
+            </div>
+            <div id="css13">
+                <h3>标签小知识:</h3>
+                <p>
+                    1. 可以把行内元素,行内块元素当做文本使用,这样就可以调用text-align:center; 使他们居中:<br>
+                    &nbsp;&nbsp; &lt; div &gt; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; &lt; span &gt; 行内元素&lt;/span&gt; <br>
+                    &nbsp;&nbsp; &lt; /div &gt; <br>
+                    div{text-align:center;}&nbsp;span盒子就会居中.<br>
+                    2. 文本类标签: h1~h6,p,dt都是文本类块级标签,里面不能放其他块级元素.<br>
+                    &nbsp;&nbsp; 如:&nbsp; &lt; p &gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div &gt;123&lt;/div &gt;<br>
+                    &nbsp;&nbsp;&nbsp;  &lt; /p&gt;<br>
+                    &nbsp;&nbsp;将会变成&lt;p &gt;&lt;/p &gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div &gt;&lt;/div &gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;p &gt;&lt;/p&gt;<br>
+                    3. 链接a内不能放标签<br>
+                    4. 让文字居中: &nbsp;line-height:行高;
+                </p>
+            </div>
+            <div id="css14">
+                <h3>css三大特性:</h3>
+                <p>
+                    1. 层叠性: 指多种css样式的叠加.一般情况下,如果出现样式叠加冲突,则按书写顺序以最后的样式为准
+                    不冲突,不重叠.<br>
+                    2. 继承性: 指子标签会继承父标签的某些样式属性.<br>
+                    &nbsp;&nbsp; 如: 文本颜色,字号.(以 text-,font-,line-开头的都可以继承)<br>
+                    3. 优先级: <br>
+                    &nbsp;&nbsp;①.继承或者*的贡献值:0,0,0,0<br>
+                    &nbsp;&nbsp;②.每个标签的贡献值:0,0,0,1<br>
+                    &nbsp;&nbsp;③.每个类,伪类的贡献值:0,0,1,0<br>
+                    &nbsp;&nbsp;④.每个Id的贡献值:0,1,0,0<br>
+                    &nbsp;&nbsp;⑤.每个行内样式(样式写在标签里)的贡献值:1,0,0,0<br>
+                    &nbsp;&nbsp;⑥.每个!important(在值后面加!important)的贡献值:无穷大<br>
+                    解释: 贡献值也叫权重,权重越大,优先级越高;权重相同,就近原则(谁离结构近,以谁为准)<br>
+                    &nbsp;&nbsp;权重可叠加但不进位(即0,0,0,5+0,0,0,5!=0,0,1,0):<br>
+                    &nbsp;&nbsp; div ul li -->0,0,0,3<br>
+                    &nbsp;&nbsp; .nav ul li -->0,0,1,2<br>
+                    &nbsp;&nbsp; a:hover-->0,0,1,1&nbsp;&nbsp;&nbsp;且0,0,1,0比0,0,0,5大
+                </p>
+            </div>
+            <div id="css15">
+                <h3>css背景:</h3>
+                <p>
+                    1. background-color:值;<br>
+                    2. background-image:url(地址);<br>
+                    3. background-repeat:参数;&nbsp;&nbsp;参数可以是:repeat(背景图在纵向和横向上平铺),&nbsp;no-repeat背景图不平铺)
+                    ,&nbsp;repeat-x(横向平铺),&nbsp;&nbsp;repeat-y(纵向平铺)<br>
+                    4. background-position:x,y; &nbsp;&nbsp;(默认左上角对齐)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;x,y可以为数字,单位px.且x,y有顺序.x为横轴,y为纵轴.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;position后x,y也可以是方位名词:left,right,top,bottom,center &nbsp; 如果只给一个值,另一个值默认居中.
+                    且x,y没有顺序.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;还可以数字和方位名词一起使用,但是有顺序:&nbsp; background-position:10px,center;<br>
+                    5. background-attachment:参数;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;参数为:scroll(默认值,背景图像随对象内容滚动)&nbsp;&nbsp;fixed(背景图固定)<br>
+                    6. 背景透明:background: rgba(0,0,0,.5);&nbsp;&nbsp;也可以是百分比.<br>
+                </p>
+            </div>
+            <div id="css16">
+                <h3>边框及合并相邻边框:<span>border</span></h3>
+                <p>
+                    1. 边框粗细:&nbsp;&nbsp;border-width:数值px;<br>
+                    2. 边框颜色:&nbsp;&nbsp;border-color:颜色;<br>
+                    3. 边框样式:&nbsp;&nbsp;border-style:参数:<br>
+                    &nbsp;&nbsp;参数可以为:none(无边框), solid(实线边框), dashed(虚线边框), dotted(点线边框)<br>
+                    <b>注</b>:①.三个属性都要有,缺一不可!<br>
+                    &nbsp;&nbsp;②.连写: border:1px&nbsp;solid&nbsp;red;&nbsp;&nbsp;(不强制要求书写顺序,但一般都这样,空格隔开)<br>
+                    &nbsp;&nbsp;③.合并相邻边框: border-collapse:collapse;
+                    &nbsp;&nbsp;④.边框会撑大盒子!!!!!!
+                </p>
+            </div>
+            <div id="css17">
+                <h3>内边距:<span>padding</span></h3>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;padding:值&nbsp;值&nbsp;值&nbsp;值;&nbsp;&nbsp;分别表示上右下左,空格隔开<br>
+                    <b>注</b>:<br>
+                    1.后面跟几个值意思不同:<br>
+                    &nbsp;&nbsp; 一个值: padding:5px;&nbsp; 上下左右都是5px.<br>
+                    &nbsp;&nbsp; 两个值: padding:3px&nbsp;5px;&nbsp; 上下3px,左右5px.<br>
+                    &nbsp;&nbsp; 三个值: padding:3px&nbsp;5px&nbsp;10px;&nbsp; 上3px,左右5px,下10px.<br>
+                    &nbsp;&nbsp; 四个值: padding:3px&nbsp;5px&nbsp;10px&nbsp;15px;&nbsp; 分别表示上右下左<br>
+                    2. padding会撑开带有宽高的盒子,不带宽高则不会撑开.<br>
+                </p>
+            </div>
+            <div id="css18">
+                <h3>外边距:<span>margin</span></h3>
+                <p>
+                    外边距就是盒子与盒子之间的距离,空出来的地方通常不能再放其他内容.<br>
+                    取值及不同的值个数表示情况与padding相同.
+                </p>
+            </div>
+            <div id="css19">
+                <h3>居中:</h3>
+                <p>
+                    水平居中:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;1.text-align:center;&nbsp;让盒子里的内容(文字,行内元素,行内块元素)居中.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;2.margin:0&nbsp;&nbsp;auto;&nbsp;上下为0,左右auto(自动,即左右都自动充满,即水平居中).<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>注:</b>此方法是让盒子对齐(条件:①必须是块级元素;②盒子必须指定宽;
+                    ③盒子没加浮动或绝对定位.)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;3.绝对定位的盒子居中对齐:先left:50%;(盒子的左边与屏幕的中心对齐),再margin-left:盒子宽的一半;
+                    (让盒子左移至自己width的一半,刚好水平居中).<br>
+                    垂直居中:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;1.line-height:行高;&nbsp;垂直居中,一般用于文本的垂直居中.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;2.绝对定位的盒子垂直居中:先top:50%;&nbsp;再margin-top:盒子高的一半;(同上).
+                </p>
+            </div>
+            <div id="css20">
+                <h3>css标签初始化:<span>清除内外边距</span></h3>
+                <p>
+                    1.*{margin:0;&nbsp;&nbsp;padding:0;}<br>
+                    2.body,span,p,...(要用到的标签,div除外,div无内外边距){margin:0;&nbsp;&nbsp;padding:0;}<br>
+                    <b>注:</b>行内元素没有上下外边距,只有左右外边距.所以尽量不要给行内元素指定上下内外边距.
+                </p>
+            </div>
+            <div id="css21">
+                <h3>嵌套块元素垂直外边距的合并:<span>水平不会合并</span></h3>
+                <p>
+                    问题解释:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;对于两个嵌套关系的块元素,如果父元素没有上内边距及边框,则父元素的上外边距将会与子元素的上外边距合并,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;合并后的外边距为两者之中的较大者,即使父元素的上外边距为0,也会发生合并.<br>
+                    解决方法:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;1.可以给父元素定义1px的上边框(border-top)或上内边距(padding-top).<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;缺点:此方法要记得让盒子减去这个1px.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;2.可以给父元素添加overflow:hidden;
+                </p>
+            </div>
+            <div id="css22">
+                <h3>圆角边框:</h3>
+                <p>
+                    border-radius:值;&nbsp;&nbsp;&nbsp;值可以为:<br>
+                    ①.数字px;(这个数字是圆的半径)<br>
+                    ②.百分比:(50%可以让一个正方形的盒子变成一个圆).<br>
+                    ③.四个值:如border-radius:1px&nbsp;&nbsp;1px&nbsp;&nbsp;1px&nbsp;&nbsp;1px&nbsp;&nbsp;;分别控制上右下左四个角.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;与也可以为三个值,两个值,皆与前面相同.
+                </p>
+            </div>
+            <div id="css23">
+                <h3>盒子阴影:</h3>
+                <p>
+                    box-shadow:水平阴影&nbsp;&nbsp;垂直阴影&nbsp;&nbsp;虚实程度&nbsp;&nbsp;阴影尺寸&nbsp;&nbsp;阴影颜色&nbsp;&nbsp;内/外阴影;<br>
+                    &nbsp;&nbsp;①.水平阴影h-shadow:&nbsp;必须,水平阴影的位置,允许负值.<br>
+                    &nbsp;&nbsp;②.垂直阴影v-shadow:&nbsp;必须,垂直阴影的位置,允许负值.<br>
+                    &nbsp;&nbsp;③.虚实程度blur:&nbsp;可选.&nbsp;&nbsp;&nbsp;④.阴影尺寸spread:&nbsp;可选.&nbsp;&nbsp;&nbsp;⑤.阴影颜色color:&nbsp;可选.<br>
+                    &nbsp;&nbsp;⑥.内/外阴影inset:&nbsp;可选,将外部阴影:outset(默认值)改为内部阴影(inset).
+                </p>
+            </div>
+            <div id="css24">
+                <h3>浮动:<span>float:让盒子漂浮起来</span></h3>
+                <p>
+                    元素的浮动是指设置了浮动属性的元素会脱离标准流(normal)的控制,移动到其父元素中指定位置的过程.语法格式如下:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;选择器{float:值;}&nbsp;&nbsp;值可以为left(向左浮动,即左对齐),right(向右浮动,右对齐),none(不浮动,默认值)<br>
+                    特性:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;1.浮动会脱离标准流,不占位置(漂浮着的),会影响下面的标准流.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;2.浮动的元素总是找离他最近的父级元素对齐,但不会超出内边距.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;3.浮动会使元素默认转化为行内块元素,元素的大小完全取决于定义的大小或者盒子里内容的大小.<br>
+                    <b>注:</b>加了float的浮动的盒子需要和标准流的父级搭配使用.(这样是为了让下面的标准流不会被浮动的盒子覆盖)
+                </p>
+            </div>
+            <div id="css25">
+                <h3>版心和布局:</h3>
+                <p>
+                    版心:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;也叫可视区,是指网页中主体内容所在的区域,一般在浏览器窗口中水平居中显示,
+                    常见的宽度值是960px,980px,1000px,1200px等<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;即&nbsp;&nbsp;选择器{width:960px;&nbsp;&nbsp;margin:0&nbsp;auto}<br>
+                    布局流程:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;①确定页面版心.&nbsp;&nbsp;②.分列页面中的行模块,以及每个行模块中的列模块.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;③.制作html结构.&nbsp;&nbsp;④.css初始化(即:选择器集合{margin:0;&nbsp;&nbsp;padding:0;}<br>
+                    &nbsp;&nbsp;然后通过盒子模型原理,通过div+css布局来控制页面各个模块.
+                </p>
+            </div>
+            <div id="css26">
+                <h3>清除浮动:</h3>
+                <p>
+                    作用:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;主要是为了解决父级元素不方便给高度,而子级浮动后引起父盒子高度为0的问题.<br>
+                    方法:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;①.额外标签法:在最后一个浮动的元素的末尾加一个空的标签,如:&lt;div&nbsp;
+                    style="clear:both"&gt;&nbsp;&nbsp;&lt;/div&gt;或者<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选择器{clear:值;}&nbsp;&nbsp;值为:left(清除左侧浮动),right(清除右侧浮动),
+                    both(同时清除两侧浮动,一般只用both)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;②.父级添加overflow属性法:给父级添加&nbsp;overflow:hidden/auto/scroll;&nbsp;都可以实现.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;③.使用after伪元素清除浮动:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;同时写上:&nbsp;.clearfix:after{content:".";&nbsp;display:block;&nbsp;height:0;&nbsp;
+                    clear:both;&nbsp;visibility:hidden;}&nbsp;&nbsp;(固定,背住即可)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.clearfix{*zoom:1;}(ie6,7专用)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;使用时,直接在父级元素中调用clearfix即可(不用加after)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;④.使用before和after双伪元素清除浮动:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;同时写上:&nbsp;.clearfix:before{content:".";&nbsp;display:table;}&nbsp;&nbsp;&nbsp;
+                    .clearfix:after{clear:both;}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.clearfix{*zoom:1;}<br>
+                    &nbsp;&nbsp;&nbsp;<b>注:</b>使用时,直接在父级元素中调用clearfix即可.&nbsp;(如:&lt;div&nbsp;&nbsp;class="father&nbsp;&nbsp; clearfix" &gt;...
+                    &lt;/div&gt;)
+                </p>
+            </div>
+            <div id="css27">
+                <h3>定位:<span>position</span></h3>
+                <p>
+                    1.边偏移:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;① top:npx;&nbsp;&nbsp;顶部偏移量,定义元素相对于其父元素上边线的距离.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;② bottom:npx;&nbsp;&nbsp;底部偏移量,定义元素相对于其父元素下边线的距离.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;③ left:npx;&nbsp;&nbsp;左偏移量,定义元素相对于其父元素左边线的距离.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;④ right:npx;&nbsp;&nbsp;右偏移量,定义元素相对于其父元素右边线的距离.<br>
+                    2.定位模式:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选择器{position:值;}&nbsp;&nbsp;&nbsp;值可以为:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;① static:静态定位,是所有元素的默认定位方式,其实就是标准流的特征.且静态定位下
+                    所有边偏移都无效<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;② relative:相对定位,是一种占位置的半脱标,可以设置边偏移,但他原本的位置仍保留.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;③ absolute:绝对定位,完全脱标且不占位置(和浮动相似):<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;情况一:若所有父级元素都没有定位(相对/绝对/固定定位);则以
+                    浏览器当前屏幕为准对齐(top:0;&nbsp;&nbsp;left:0;&nbsp;&nbsp;即最左上角.&nbsp;&nbsp;&nbsp;&nbsp;bottom:0;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;right:0;&nbsp;&nbsp;最右下角).<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;情况二:若父级有定位,则以最近的已经定位(相对/绝对/固定)的父级(或更父级)
+                    为参考对象.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>注:</b>子绝父相:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;子绝父相是一种常见布局搭配,即子级是绝对定位的话,父级就相对定位(子级要
+                    以父级作参考对象).且子级不占位置漂浮在父级上面.父级相对<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定位是为了占位置,使下面的盒子不会跑上来.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;④ fixed:固定定位,始终以浏览器窗口为参考对象来定义网页元素,不管浏览器滚动条如何滚动,
+                    窗口如何大小变化,该元素始终显示在固定位置.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特点:固定定位跟父级(更父级)没有任何关系,只认浏览器.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;固定定位完全脱标,不占位置,不随滚动条滚动.<br>
+                    <b>注:</b>absolute(绝对定位),fixed(固定定位)与float一样会使标签默认转化为行内块(inline-block)元素.
+                </p>
+            </div>
+            <div id="css28">
+                <h3>叠放次序:<span>z-index</span></h3>
+                <p>
+                    在css中,要想调整定位元素的堆叠次序,可以用z-index层叠等级属性,其取值可以为正整数,负数和0,且z-index没有单位<br>
+                    <b>注:</b><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;① z-index是相对定位,绝对定位,固定定位的固有属性,其他所有元素都不可指定此属性.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;② z-index的默认值是0,取值越大,定位元素在层叠元素中越居上.如果取值相同,后来者居上.
+                </p>
+            </div>
+            <div id="css29">
+                <h3>元素的显示与隐藏:</h3>
+                <p>
+                    是指让一个元素在页面中消失,但不是在源代码中删除.<br>
+                    1. display(显示):值;&nbsp;&nbsp; 设置或检索一个对象是否显示及如何显示.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;值可以为none:隐藏对象,且隐藏之后不再保留位置,直接消失!!<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;为block:除了表示转换为块级元素以外,还同时使元素显示.<br>
+                    2. visibility(可见性):值;&nbsp;&nbsp;设置或检索是否显示对象.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;值可以为inherit:默认值,继承上一个父级的可见性.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;为visible:可见.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;为hidden:隐藏,且隐藏之后继续保留原有位置.<br>
+                    3. overflow(溢出):值;&nbsp;&nbsp;设置或检索当前对象的内容超过其指定宽高时如何管理内容.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;值可以为visible:默认值,显示,即使超出了也依然显示.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;为hidden:隐藏,把超出的部分隐藏掉,但不会消失.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;为scroll:不管内容是否超出都显示一个滚动条.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;auto:在需要时添加滚动条,不需要时隐藏滚动条.
+
+                </p>
+            </div>
+            <div id="css30">
+                <h3>css用户界面样式:</h3>
+                <p>
+                    1. 鼠标样式cursor:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;cursor:值;&nbsp;&nbsp;值可以为auto(自动选择,默认值),default(基本样式,即箭头),
+                    pointer(小手),move(拖动的样式),text(文本样式)<br>
+                    2. 轮廓线outline:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;outline: outline-color&nbsp;&nbsp;outline-style&nbsp;&nbsp;outline-width;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;常见于输入框,那个框就是outline.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<b>注:</b>平时使用就是去除轮廓线: outline:0;&nbsp; 或outline:none;(如: &lt;input&nbsp;type="text"
+                    style=outline:0; &gt;)<br>
+                    3. 防止拖拽文本域resize:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;resize:none;&nbsp;&nbsp;(如: &lt; textarea &nbsp;style="resize:none;"&nbsp;&gt;&nbsp;...&nbsp;
+                    &lt; /textarea &gt;)<br>
+                    4. 垂直对齐vertical-align:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;vertical-align:值;&nbsp;&nbsp;值可以为:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;baseline:使文字的基线与对象内容的底部对齐.(会留有文字的底线缝隙)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;top:使文字的顶线与对象内容的顶部对齐.(没有缝隙)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;bottom:使文字的底线与对象内容的底线对齐(没有缝隙)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;middle:使文字的中线与对象内容的中线对齐(没有缝隙)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<b>注:</b>vertical-align不影响块级元素中的内容对齐,它只针对于行内元素或行内块元素.
+                    通常用来控制图片或表单与文字的对齐方式.<br>
+                    5. 控制对象内的文本是否换行white-space:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;white-space:值;&nbsp;&nbsp;值可以为:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;normal:默认值,将自动换行.&nbsp;&nbsp; nowrap:强制文本在同一行显示,直到文本结束,
+                    或遇到&lt; br &gt;强制换行.<br>
+                    6.文字溢出是否使用省略号text-overflow:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;text-overflow:值;&nbsp;&nbsp;值可以为:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;clip:默认值,不显示省略号,而是简单地裁切.&nbsp;&nbsp; ellipsis: 当文字溢出时显示省略号.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<b>注:</b>要使用text-overflow:ellipsis;&nbsp; &nbsp;必须先使用white-space:nowrap;
+                    和overflow:hidden;&nbsp;&nbsp;才有效果(只有不换行且溢出了才能使用省略号).
+                </p>
+            </div>
+            <div id="css31">
+                <h3>css精灵图技术:</h3>
+                <p>
+                    css精灵图其实就是将网页中要用到的图片整合到一张大的背景图(即精灵图)中去.当要使用到某一张图片时,
+                    只需通过background-position属性对齐到那张图片即可(同时用到background-image,background-repeat:no-repeat(不平铺);属性).<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;连写:&nbsp;&nbsp;background:url(精灵图地址)&nbsp;&nbsp;no-repeat&nbsp;&nbsp;x&nbsp;&nbsp;y;
+                </p>
+            </div>
+            <div id="css32">
+                <h3>滑动门技术:</h3>
+                <p>
+                    通过&lt; a &nbsp;&nbsp;href="#" &gt;&nbsp;&nbsp; &lt; span &gt; ... &lt; /span &gt;&nbsp; &lt; /a &gt;,
+                    给a的背景图片一个左括号&nbsp;&nbsp;"("&nbsp;&nbsp;,span的背景图一个右括号&nbsp;&nbsp;")"&nbsp;&nbsp; ,即可实现凹凸效果.
+                </p>
+            </div>
+            <div id="css33">
+                <h3>网址栏图标的引入:</h3>
+                <p>
+                在&lt; head &gt; 标签里直接写&lt; link&nbsp;&nbsp; rel="shortcut  icon"&nbsp;&nbsp; href="地址"&nbsp;&nbsp;
+                type="image/x-icon"(这个可以省略) &nbsp;&nbsp;/&gt;<br>
+                <b>注:</b>① 存放图标时,建议直接和html放同一目录下. <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;② 需要找某个网址的图标,只需要在其网址后加上"/favicon.ico"即可.
+                </p>
+            </div>
+            <div id="css34">
+                <h3>网站优化三大标签:</h3>
+                <p>
+                    1. title: 网页标题,是搜索引擎了解网站的入口.&nbsp;&nbsp;(即 &lt;title &gt; ... &lt; title &gt;)<br>
+                    2. description: 网站说明,用来给别人看的,要吸引人的兴趣.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; &lt; meta &nbsp;&nbsp;name="description"&nbsp;&nbsp; content=" .......不超过120字" / &gt;<br>
+                    3. keywords: 网页关键词,描述中出现的关键字用英文的逗号隔开",".<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; &lt; meta &nbsp;&nbsp; name="keywords"&nbsp;&nbsp; content="...6~8个关键字" / &gt;
+                </p>
+            </div>
+            <div id="css35">
+                <h3>结构伪类选择器:</h3>
+                <p>
+                    ① :first-child&nbsp;&nbsp;选取属于其父元素的首个子元素.<br>
+                    ② :last-child&nbsp;&nbsp;选取属于其父元素的最后一个子元素.<br>
+                    ③ :nth-child(n)&nbsp;&nbsp;选取属于其父元素的第n个子元素,不论元素类型.<br>
+                    ④ :nth-child(even)&nbsp;&nbsp;选取属于偶数位的子元素.<br>
+                    ⑤ :nth-child(odd)&nbsp;&nbsp;选取属于奇数位的子元素.<br>
+                    ⑥ :nth-child(2n)&nbsp;&nbsp;选取2的倍数位的子元素.(也是偶数位.类似的还有2n+1,奇数位;&nbsp;&nbsp;4n
+                    4的倍数位.)
+                </p>
+            </div>
+            <div id="css36">
+                <h3>属性选择器:<span>选取标签里带有某些特殊属性的选择器</span></h3>
+                <p>
+                    ① div[class]{...}&nbsp;&nbsp;&nbsp;&nbsp;选取div中所有含有class(类选择器)的对象.<br>
+                    ② div[class^=RiCaa]={...}&nbsp;&nbsp;&nbsp;选取div中以RiCaa开头的所有类选择器的对象.<br>
+                    ③ div[class$=RiCaa]={...}&nbsp;&nbsp;&nbsp;选取div中以RiCaa结尾的所有类选择器的对象.<br>
+                    ④ div[class*=RiCaa]={...}&nbsp;&nbsp;&nbsp;&nbsp;选取div中含有RiCaa的所有类选择器的对象.
+                </p>
+            </div>
+            <div id="css37">
+                <h3>html5新增的input属性:</h3>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt; input&nbsp;&nbsp; type="text"&nbsp;&nbsp;新增属性 &gt;<br>
+                    ① placeholder="字"&nbsp;&nbsp;占位符,当用户输入内容时,占位符消失.<br>
+                    ② autofocus:&nbsp;&nbsp;当页面加载时,含有autofocus的input自动获得光标(常见于百度).<br>
+                    ③ multiple: &nbsp;&nbsp;多文件上传,和type="file"一起使用.<br>
+                    ④ required:&nbsp;&nbsp; 必填项,不可为空.<br>
+                    ⑤ accesskey:&nbsp;&nbsp;了解即可,使元素获得焦点的快捷键(如: &nbsp; &lt; input="text"&nbsp;&nbsp; accesskey=
+                    "s"/ &gt; &nbsp;当按下alt+s,此input将自动获得光标.
+                </p>
+            </div>
+            <div id="css38">
+                <h3>伪元素选择器:<span>::</span></h3>
+                <p>
+                    ① ::first-letter{...}&nbsp;&nbsp; 选中文本中的第一个字或字母.<br>
+                    ② ::first-line{...}&nbsp;&nbsp; 选中文本第一行.<br>
+                    ③ ::selection{...}&nbsp;&nbsp;改变选中文本的样式.
+                </p>
+            </div>
+            <div id="css39">
+                <h3>before,after伪元素:<span>相当于插入了一个新的标签</span></h3>
+                <p>
+                    ① ::before{...}&nbsp;&nbsp; 在...之前添加的样式.(如: div::before{...}&nbsp; 在div内容里的样式之前添加样式,
+                    此样式还属于div,在div盒子里,不是外部.)<br>
+                    ② ::after{...}&nbsp;&nbsp; 在...之后添加内容.<br>
+                    <b>注:</b>1.可以把before,after看作盒子,他们默认为行内元素,可转化格式.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;2.before,after伪元素必须包含content:"  "样式.<br>
+                    好处:使用before,after伪元素可以使结构更清晰,直接新建了属于div的子盒子.
+                </p>
+            </div>
+            <div id="css40">
+                <h3>内减型:</h3>
+                <p>
+                    box-sizing:border-box;&nbsp;&nbsp;写定宽高之后加上这句话,padding,border将不会在撑开盒子,而是向内减小容器大小.<br>
+                    (默认为box-sizing:content-box;&nbsp;&nbsp;盒子会被padding,border撑开.)
+                </p>
+            </div>
+            <div id="css41">
+                <h3>音频audio:<span>三种格式:.mp3&nbsp;&nbsp;.ogg&nbsp;&nbsp;.Wav</span></h3>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; audio &nbsp;&nbsp;src="音频地址" &nbsp;属性 &gt; ... &lt;/audio &gt;  &nbsp;&nbsp;(不常用写法)<br>
+                    属性为:① autoplay: &nbsp;&nbsp;打开页面后自动播放.&nbsp;&nbsp;&nbsp;&nbsp;② controls:可手动暂停.
+                    &nbsp;&nbsp;③ loop:循环模式.<br>
+                    常用写法为:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;单标签 &lt; source /&gt; &nbsp; 与 &nbsp;&lt; audio &gt;...&lt; /audio &gt;
+                    搭配使用,如下:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; &lt; audio&nbsp;&nbsp; autoplay&nbsp;&nbsp; controls &nbsp;&nbsp;loop &gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; source&nbsp;&nbsp; src="地址.mp3"/&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; source&nbsp;&nbsp; src="地址.ogg"/&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; source&nbsp;&nbsp; src="地址.Wav"/&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你的浏览器版本过低.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt; /audio &gt; <br>
+                    上面的意思是:mp3格式不支持则选用下面的ogg格式,在不主持则选用下面的Wav格式,还不支持显示"你的浏览器版本过低"
+                </p>
+            </div>
+            <div id="css42">
+                <h3>视频video:<span>三种格式:&nbsp;&nbsp;.ogg&nbsp;&nbsp;.MPEG4&nbsp;&nbsp;.WebM</span></h3>
+                <p>
+                &lt; video &gt;... &lt; /video &gt;
+                与音频一样:<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;  video&nbsp;&nbsp; autoplay&nbsp;&nbsp;controls(功能栏:暂停,进度条, 音量,全屏)
+                &nbsp;loop &gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; source&nbsp;&nbsp; src="地址.ogg"/&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; source&nbsp;&nbsp; src="地址.MPEG4"/&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; source&nbsp;&nbsp; src="地址.WebM"/&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你的浏览器版本过低.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt; /audio &gt; <br>
+                上面的意思是:ogg格式不支持则选用下面的MPEG4格式,在不主持则选用下面的WebM格式,还不支持显示"你的浏览器版本过低"
+                </p>
+            </div>
+            <div id="css43">
+                <h3>css过渡动画：<span>是从一种状态渐渐地过渡到另一种状态。</span></h3>
+                <p>
+                    transition：①要过度的属性 &nbsp;&nbsp; ②花费时间&nbsp;&nbsp; ③运动曲线&nbsp;&nbsp; ④何时开始；<br>
+                    空格隔开，按照上面的顺序不可改变。 <br>
+                    属性值：<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;① transition-property：定义要使用过度的css属性名称（宽高等）。<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;② transition-duration：定义过渡效果花费的时间。默认是0，有单位s或ms。 <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;③ transition-timing-function：规定过度的速度曲线，默认是ease（逐渐变慢）、
+                    linear（匀速）、ease-in（加速）、ease-out（减速）。 <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;④ transition-delay： 定义过渡效果何时开始，默认是0（立即开始）。有单位s或ms。 <br>
+                    <b>注：</b>1.如果有多个属性多要有过渡效果，属性之间用逗号隔开。（如：&nbsp;transition：width&nbsp;&nbsp; 0.5s
+                    &nbsp; ease&nbsp;&nbsp; 0，height&nbsp;&nbsp; 0.5s &nbsp;&nbsp;linear&nbsp;&nbsp;0；) <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.如果所有属性都要变化过渡，用all且后两个值一般省略。（如：&nbsp;transition： all&nbsp;
+                     0.5s；） <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.过渡写在本身上，即谁做过渡动画，写谁身上。（一般不写在:hover里，否则只有鼠标经过时有动，
+                    离开时瞬间还原无过渡。）
+                </p>
+            </div>
+        </div>
+
+        <div class="javaScript" id="javaScript">
+
+        </div>
+    </div>
+
+    <script src="../js/兼容代码.js"></script>
+    <script src="笔记.js"></script>
+</body>
+</html>

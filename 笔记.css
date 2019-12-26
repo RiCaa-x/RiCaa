@@ -1,0 +1,118 @@
+body{
+    background: rgb(200,200,200);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+p{
+    font-size: 16px;
+}
+.nav h1{
+    width: 100px;
+    border: 5px solid #666666;
+    padding: 8px;
+    color: #333333;
+    margin: 20px auto;
+}
+.nav{
+    background: rgb(120,120,120);
+    width: 15%;
+    position: fixed;
+    height: 100%;
+}
+.main{
+    margin-left: 16%;
+    width:70%;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.nav-h{
+    margin-bottom: 50px;
+}
+.nav-h p a{
+    font-size: 12px;
+    text-align: center;
+    display: block;
+}
+.nav-f{
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+.nav-f h3{
+    width: 120px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+}
+.nav-f h6{
+    font-size: 10px;
+}
+.nav-f h6 a{
+    display: block;
+    margin: 12px auto;
+    text-align: center;
+    width: 100px;
+}
+b{
+    color: #f10215;
+}
+.main b{
+    font-weight: normal;
+}
+.nav-f a,.nav-f span{
+    cursor: pointer;
+}
+.nav-f a:hover,.nav-f span:hover{
+    color: #f10215;
+}
+.htmlAll,.cssAll,.javaScriptAll{     //----------------box-----------------要增加1;
+    border: 1px dashed #666666;
+    width: 150px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.htmlMain,.cssMain,.javaScriptMain{  //-------------------内容main--------------要增加2;
+    width: 140px;
+    margin: 0;
+    padding: 0;
+}
+.htmlScroll,.cssScroll,.javaScriptScroll{    //----------------滚动条-----------------要增加3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 402px;
+    background: rgba(200,200,200,.3);
+}
+.htmlBar,.cssBar,.javaScriptBar{         //------------------滚动轮---------------要增加4;
+    position: absolute;
+    left: 1px;
+    width: 7px;
+    border-radius: 4px;
+    background-color: rgba(255,255,255,.5);
+}
+.main h3{
+    margin: 5px;
+}
+.main p{
+    margin-bottom: 50px;
+    padding-left: 30px;
+    line-height: 30px;
+}
+.main span{
+    font-size: 10px;
+    color: #666666;
+    font-weight: normal;
+    margin-left: 20px;
+}
